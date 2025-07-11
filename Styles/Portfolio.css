@@ -1,17 +1,18 @@
-
 .plus-jakarta-sans-normal> {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight:normal;
+  font-weight: normal;
   font-style: normal;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   /* font-family: 'Arial', sans-serif; */
 }
@@ -40,7 +41,7 @@ body, html {
   color: #4f46e5;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #4f46e5;
   color: white;
   padding: 10px 18px;
@@ -65,10 +66,11 @@ body, html {
   font-weight: bold;
   color: #1f1f1f;
   margin-bottom: 30px;
-  
+
 }
+
 /* main section */
-.action{
+.action {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,38 +81,46 @@ body, html {
   margin: 165px 116px 135px;
 
 }
-.action-content{
+
+.action-content {
   max-width: 50%;
 }
-.action-content h2{
+
+.action-content h2 {
   font-size: 32px;
   color: #1a1a1a;
   margin-bottom: 15px;
 }
-.action-content p{
+
+.action-content p {
   font-size: 18px;
   color: #777;
   margin-bottom: 25px;
 
 }
-.action-image img{
+
+.action-image img {
   max-width: 100%;
   border-radius: 20px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
-main{
+
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 /* productive-section */
-.Productive{
-  background-color:#eef0ff; ;
+.Productive {
+  background-color: #eef0ff;
+  ;
   padding: 60px 20px;
   text-align: center;
   border-radius: 12px;
   margin: 40px auto;
 }
-.productive-content{
+
+.productive-content {
   font-size: 28px;
   color: #1a1a1a;
   margin-bottom: 40px;
@@ -124,59 +134,69 @@ main{
   font-weight: bold;
 }
 
-.Stat{
+.Stat {
   display: flex;
   justify-content: center;
   gap: 60px;
   flex-wrap: wrap;
 }
-.stat-items h3{
+
+.stat-items h3 {
   font-size: 36px;
-  color: #4c3cff; /* vibrant blue */
+  color: #4c3cff;
+  /* vibrant blue */
   margin-bottom: 8px;
   font-weight: bold;
 }
-.stat-items p{
+
+.stat-items p {
   font-size: 16px;
   color: #777;
 }
- /* Users’ Feedback Section */
- .Feedback{
-  background-color:#f5f7ff ;
+
+/* Users’ Feedback Section */
+.Feedback {
+  background-color: #f5f7ff;
   text-align: center;
   padding: 60px 20px;
- }
- .Feedback-title{
+}
+
+.Feedback-title {
   font-size: 28px;
   color: #2a2a2a;
   margin-bottom: 40px;
- }
- .Feedback-cards{
+}
+
+.Feedback-cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
- }
- .Feedback-card{
-   background: #fff;
+}
+
+.Feedback-card {
+  background: #fff;
   border-radius: 12px;
   padding: 20px;
   max-width: 300px;
   text-align: left;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
- }
- .Feedback-card p{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.Feedback-card p {
   font-size: 14px;
   color: #555;
   margin-bottom: 20px;
- }
- .stars{
-   font-size: 16px;
+}
+
+.stars {
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
   color: yellow;
- }
- .reviewer {
+}
+
+.reviewer {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -194,8 +214,58 @@ main{
   font-weight: 600;
   color: #333;
 }
+
 .reviewer .date {
   font-size: 12px;
   color: #999;
 }
+/* Get in touch */
+.Touch, .Touch-left h2{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 20px;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 60px auto;
+}
+.Touch-left, .Touch-right{
+  flex: 1;
+  min-width: 250px;
+}
+.Touch-left h2{
+  font-size: 80px;
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+}
 
+.Touch-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Touch-right label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.Touch-right input,
+.Touch-right textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* .Get-In-Touch-title{
+  text-align: center;
+  justify-content: ;
+
+} */
+ 
