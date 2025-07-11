@@ -67,3 +67,135 @@ body, html {
   margin-bottom: 30px;
   
 }
+/* main section */
+.action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7ff;
+  padding: 60px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 165px 116px 135px;
+
+}
+.action-content{
+  max-width: 50%;
+}
+.action-content h2{
+  font-size: 32px;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+.action-content p{
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 25px;
+
+}
+.action-image img{
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* productive-section */
+.Productive{
+  background-color:#eef0ff; ;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 40px auto;
+}
+.productive-content{
+  font-size: 28px;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.productive-content h2 {
+  font-size: 28px;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.Stat{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.stat-items h3{
+  font-size: 36px;
+  color: #4c3cff; /* vibrant blue */
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.stat-items p{
+  font-size: 16px;
+  color: #777;
+}
+ /* Users’ Feedback Section */
+ .Feedback{
+  background-color:#f5f7ff ;
+  text-align: center;
+  padding: 60px 20px;
+ }
+ .Feedback-title{
+  font-size: 28px;
+  color: #2a2a2a;
+  margin-bottom: 40px;
+ }
+ .Feedback-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+ }
+ .Feedback-card{
+   background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+ }
+ .Feedback-card p{
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+ }
+ .stars{
+   font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: yellow;
+ }
+ .reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer .name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.reviewer .date {
+  font-size: 12px;
+  color: #999;
+}
+
