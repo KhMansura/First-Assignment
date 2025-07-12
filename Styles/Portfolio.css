@@ -2,7 +2,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
-  font-style:normal;
+  font-style: normal;
 }
 
 * {
@@ -13,7 +13,7 @@
 
 /* Banner Background */
 .banner {
-  background-image: url('../Assets/Hero-bg.png');
+  background-image: url('./../Assets/Hero-bg.png');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -43,10 +43,14 @@
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-primary:hover {
-  background-color: #3730a3;
+  background-color: #d6b603;
+  transform: scale(1.05);
+  color: #1f1f1f;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 /* Banner Content */
@@ -210,8 +214,10 @@ main {
   font-size: 12px;
   color: #999;
 }
+
 /* Get in touch */
-.Touch, .Touch-left h2{
+.Touch,
+.Touch-left h2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -222,11 +228,14 @@ main {
   flex-wrap: wrap;
   margin: 60px auto;
 }
-.Touch-left, .Touch-right{
+
+.Touch-left,
+.Touch-right {
   flex: 1;
   min-width: 250px;
 }
-.Touch-left h2{
+
+.Touch-left h2 {
   font-size: 80px;
   color: #000;
   font-weight: bold;
@@ -255,74 +264,81 @@ main {
   box-sizing: border-box;
 }
 
- /* Footer Section */
- .footer{
+/* Footer Section */
+.footer {
   text-align: center;
   padding: 50px 20px;
   background-color: #fff;
   max-width: 800px;
   margin: 0 auto;
- }
- .footer-logo{
-font-size: 36px;
+}
+
+.footer-logo {
+  font-size: 36px;
   font-weight: bold;
   color: #4c3cff;
   margin-bottom: 15px;
- }
- .footer-subtitle{
+}
+
+.footer-subtitle {
   font-size: 14px;
   color: #777;
   max-width: 600px;
   margin: 0 auto 25px auto;
   line-height: 1.6;
 }
-.footer-items{
+
+.footer-items {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
 }
-.footer-items a{
+
+.footer-items a {
   font-size: 14px;
   color: #777;
   text-decoration: none;
   transition: color 0.3s;
 }
- 
-  /* Ready to focus better */
-  .Focus{
+
+/* Ready to focus better */
+.Focus {
   background-color: #ffffff;
   padding: 60px 40px;
   border-radius: 16px;
   margin: 60px auto;
-  box-shadow:0 0 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   max-width: 100%;
-  }
-  .Focus-content{
-    text-align: center;
-    
-  }
-  .Focus-image{
+}
+
+.Focus-content {
+  text-align: center;
+
+}
+
+.Focus-image {
   max-width: 1000%;
   border-radius: 24px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
-  }
-  .Focus-content h2{
-    margin-bottom: 21px;
-    font-size: 32px;
-    font-weight: 800;
-    color: #1a1a1a;
-  }
-  .Focus-content p{
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: #666;
-  }
-  .Focus-image img {
+}
+
+.Focus-content h2 {
+  margin-bottom: 21px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.Focus-content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.Focus-image img {
   max-width: 100%;
   border-radius: 24px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
-
-  
